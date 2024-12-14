@@ -4,6 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Award, ExternalLink } from "lucide-react";
 import { certifications } from "../resources/Data";
+import Image from "next/image";
 
 
 
@@ -80,9 +81,11 @@ export default function Certifications() {
                       transition={{ duration: 0.8 }}
                       className="relative z-10"
                     >
-                      <img
+                      <Image
                         src={cert.image}
                         alt={cert.title}
+                        width={128}
+                        height={128}
                         className="w-32 h-32 object-contain filter drop-shadow-lg"
                       />
                     </motion.div>

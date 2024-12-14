@@ -21,8 +21,8 @@ export function Contact() {
           </h2>
           <div className="w-24 h-1.5 bg-gradient-to-r from-teal-500 to-teal-300 mx-auto rounded-full mb-10" />
           <p className="text-white leading-relaxed text-xl  mx-auto">
-                  I'm currently looking for new opportunities, so whether you have a question, a project in mind,
-                  or just want to say hello, feel free to reach out, and let's create something amazing together!
+                  I&apos;m currently looking for new opportunities, so whether you have a question, a project in mind,
+                  or just want to say hello, feel free to reach out, and let&apos;s create something amazing together!
                 </p>
         </div>
         

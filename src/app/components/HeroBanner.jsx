@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { ChevronRight, Download } from "lucide-react";
 import SocialLinks from "./SocialLinks";
+import Image from "next/image";
 
 const HeroBanner = () => {
   return (
@@ -24,7 +25,7 @@ const HeroBanner = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
             >
               <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">
-                Hello, I'm Abhishek,{" "}
+                Hello, I&apos;m Abhishek,{" "}
               </span>
               <br />
               <TypeAnimation
@@ -89,9 +90,10 @@ const HeroBanner = () => {
               <div className="w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 opacity-75 blur-3xl animate-pulse"></div>
                 <div className="absolute inset-[3px] rounded-full bg-gray-900"></div>
-                <img
-                  src="images/hero-image.png"
+                <Image
+                  src="/images/hero-image.png"
                   alt="Profile"
+                  fill
                   className="absolute inset-0 w-full h-full rounded-full object-cover transform hover:scale-105 transition-transform duration-300"
                 />
               </div>

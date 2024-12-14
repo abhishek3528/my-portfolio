@@ -4,6 +4,7 @@ import { useInView,motion } from "framer-motion";
 import { useRef } from "react";
 import { Folder,ClipboardIcon, ClipboardList, ClipboardEdit} from "lucide-react";
 import { projects } from "../resources/Data";
+import Image from "next/image";
 
 
 export default function Projects() {
@@ -30,6 +31,14 @@ export default function Projects() {
             <h2 className="text-4xl font-bold text-white">Projects</h2>
           </motion.div>
           <div className="w-24 h-1.5 mb-10 bg-gradient-to-r from-teal-500 to-teal-300 mx-auto rounded-full" />
+          <motion.p
+                      initial={{ opacity: 0 }}
+                      animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+                      transition={{ delay: 0.4, duration: 0.6 }}
+                      className="text-gray-400 text-lg max-w-2xl mx-auto"
+                    >
+                      Demonstrating innovation, technical skills, and successful outcomes.
+                    </motion.p>
       </div>    
         <div className="grid gap-6 md:grid-cols-2">
           {projects.map((project, index) => (
@@ -45,10 +54,21 @@ export default function Projects() {
               className="bg-gray-800 rounded-lg overflow-hidden shadow-lg w-10/12 h-auto mx-auto"
             >
               <div className="relative aspect-video">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
-                  className="object-cover w-full h-full"
+                  //   width={300} // Replace with desired width
+                  // height={200}
+                  // className="object-cover w-full h-full"
+
+                  fill // Replaces `layout="fill"`
+                  style={{ objectFit: 'cover' }} // Replaces `objectFit="contain"`
+                  className="w-full h-full" // Optional Tailwind styling 
+
+                  // layout="fill" // Makes the image fill the parent container
+                  // objectFit="cover" // Ensures proper cropping like `object-cover`
+                  // className="w-full h-full" // Add any other styling
+                  
                 />
               </div>
               <div className="p-6">

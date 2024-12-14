@@ -24,9 +24,14 @@ const Skills = () => {
             <h2 className="text-4xl font-bold text-white">Skills</h2>
           </motion.div>
           <div className="w-24 h-1.5 mb-10 bg-gradient-to-r from-teal-500 to-teal-300 mx-auto rounded-full" />
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto" >
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ delay: 0.4, duration: 0.6 }}
+            className="text-gray-400 text-lg max-w-2xl mx-auto"
+             >
           A diverse and robust skill set enabling the development of innovative solutions and driving success across projects.
-          </p>   
+          </motion.p>   
         </div>
         <div className='flex flex-wrap items-center justify-center gap-4'>
 

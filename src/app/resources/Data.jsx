@@ -138,7 +138,7 @@ export const projects = [
   {
     title: "AnimeFlix",
     description: "Created a dynamic platform for an anime blog, featuring detailed information, secure authentication, efficient data retrieval, and seamless performance with real-time updates.",
-    image: "images/projects/animeflix.png",
+    image: "/images/projects/animeflix.png",
     tags: ["React", "Redux", "PostgreSQL", "Tailwind CSS","Java", "Spring Boot", "JWT"],
     liveUrl: "#",
     githubUrl: "#",
@@ -146,7 +146,7 @@ export const projects = [
   {
     title: "Contact Manager",
     description: "Built a contact management application with robust CRUD operations, seamless user interaction, efficient data communication, and thorough API testing for reliability.",
-    image: "images/projects/CM.svg",
+    image: "/images/projects/CM.svg",
     tags: ["React", "MySQL", "Spring Boot", "Spring Data JPA","Tailwind CSS"],
     liveUrl: "#",
     githubUrl: "#",
@@ -158,13 +158,13 @@ export const projects = [
 export const certifications = [
   {
     title: "AWS Certified Developer – Associate",
-    image: "images/certifications/aws_dev_associate.png",
+    image: "/images/certifications/aws_dev_associate.png",
     link: "https://www.credly.com/badges/830f6b72-0446-414f-9e16-48bf92046c68/public_url",
     description: "Validated expertise in designing, developing, and maintaining cloud-based applications using AWS core services and best practices."
   },
   {
     title: "AWS Knowledge: Cloud Essentials",
-    image: "images/certifications/aws-cloud-essentials.png",
+    image: "/images/certifications/aws-cloud-essentials.png",
     link: "https://www.credly.com/badges/81618696-6b58-4d5e-b0fc-630b816fc924/public_url",
     description: "Demonstrates foundational understanding of AWS core services, basic cloud concepts, and essential architectural principles."
   },
