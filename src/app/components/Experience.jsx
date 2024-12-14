@@ -40,7 +40,7 @@ export default function Experience() {
               across career roles, and a strong educational foundation.
       </motion.p>    
       </div>
-      <VerticalTimeline>
+       <VerticalTimeline lineColor="">
         {expData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
@@ -51,7 +51,7 @@ export default function Experience() {
 
                 textAlign: "left",
                 padding: "1.5rem",
-    borderRadius: "8px", // Rounded corners
+                borderRadius: "8px", // Rounded corners
     
               }}
               contentArrowStyle={{
@@ -60,10 +60,8 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background: "rgba(255, 255, 255, 0.05)",
+                background: "rgba(0, 0, 0, 1)",
                 fontSize: "1.5rem",
-                
-                
               }}
             >
               <h3 className="font-extrabold capitalize">{item.title}</h3>
