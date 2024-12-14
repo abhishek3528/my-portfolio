@@ -68,7 +68,7 @@ const HeroBanner = () => {
                 </motion.a>
 
                 <motion.a
-                  href="/cv.pdf"
+                  href="/resume.pdf"
                   className="group px-6 py-3 rounded-full bg-transparent border-2 border-purple-500 text-white font-medium inline-flex items-center gap-2 hover:bg-purple-500/10 transition-colors duration-300"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
