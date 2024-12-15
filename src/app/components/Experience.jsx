@@ -18,7 +18,7 @@ export default function Experience() {
   const isInView = useInView(ref, { once: true });
   return (
 
-    <section ref={ref} id="experience"  className=" mt-28 scroll-mt-28 sm:mb-4 ">
+    <section ref={ref} id="experience"  className=" mt-28 scroll-mt-28 sm:mb-4 text-white">
     <div className="text-center mb-16">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -26,8 +26,8 @@ export default function Experience() {
             transition={{ duration: 0.6 }}
             className="flex items-center justify-center gap-3 mb-4"
           >
-            <BriefcaseBusinessIcon className="w-8 h-8 text-blue-400" />
-            <h2 className="text-4xl font-bold text-white">Experience</h2>
+            <BriefcaseBusinessIcon className="w-6 h-6 sm:w-8 sm:h-8 text-blue-400" />
+            <h2 className="text-3xl sm:text-4xl font-bold text-white">Experience</h2>
           </motion.div>
           <div className="w-24 h-1.5 mb-10 bg-gradient-to-r from-teal-500 to-teal-300 mx-auto rounded-full" />
       <motion.p

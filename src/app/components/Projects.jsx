@@ -18,8 +18,8 @@ export default function Projects() {
   };
 
   return (
-    <section ref={ref} id="projects" className="py-24 mt-28 text-white">
-      <div className="container mx-auto px-4">
+  <section ref={ref} id="projects" className="py-24 mt-28 text-white">
+    <div className="container mx-auto px-4">
       <div className="text-center mb-16">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -27,8 +27,8 @@ export default function Projects() {
             transition={{ duration: 0.6 }}
             className="flex items-center justify-center gap-3 mb-4"
           >
-            <Folder className="w-8 h-8 text-blue-400" />
-            <h2 className="text-4xl font-bold text-white">Projects</h2>
+            <Folder className="w-6 h-6 sm:w-8 sm:h-8 text-blue-400" />
+            <h2 className="text-3xl sm:text-4xl font-bold text-white">Projects</h2>
           </motion.div>
           <div className="w-24 h-1.5 mb-10 bg-gradient-to-r from-teal-500 to-teal-300 mx-auto rounded-full" />
           <motion.p
@@ -38,7 +38,7 @@ export default function Projects() {
                       className="text-gray-400 text-lg max-w-2xl mx-auto"
                     >
                       Demonstrating innovation, technical skills, and successful outcomes.
-                    </motion.p>
+          </motion.p>
       </div>    
         <div className="grid gap-6 md:grid-cols-2">
           {projects.map((project, index) => (
@@ -89,7 +89,7 @@ export default function Projects() {
             </motion.div>
           ))}
         </div>
-      </div>
-    </section>
+    </div>
+  </section>
   );
 }

@@ -45,8 +45,8 @@ export default function Certifications() {
             transition={{ duration: 0.6 }}
             className="flex items-center justify-center gap-3 mb-4"
           >
-            <Award className="w-8 h-8 text-blue-400" />
-            <h2 className="text-4xl font-bold text-white">Certifications</h2>
+            <Award className="w-6 h-6 sm:w-8 sm:h-8 text-blue-400" />
+            <h2 className="text-3xl sm:text-4xl font-bold text-white">Certifications</h2>
           </motion.div>
           <div className="w-24 h-1.5 mb-10 bg-gradient-to-r from-teal-500 to-teal-300 mx-auto rounded-full" />
         

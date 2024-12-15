@@ -68,7 +68,7 @@ const NavigateBar = () => {
     // >
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 
-      bg-gray-900 bg-opacity-80 shadow-lg `}
+      bg-gray-900 bg-opacity-90 shadow-lg `}
     >
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link

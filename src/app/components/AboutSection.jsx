@@ -1,16 +1,15 @@
 "use client";
 import React, { useTransition, useState } from "react";
-import Image from "next/image";
 
 const AboutSection = () => {
 
   return (
     <section className="text-white mt-52 scroll-mt-20" id="about">
-      <div className="items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <div className="mt-4 md:mt-0 text-center flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+      
+        <div className="mt-4 md:mt-0  flex flex-col h-full">
+          <h2 className="text-4xl font-bold text-white mx-auto mb-4">About Me</h2>
           <div className="w-24 h-1.5 mb-10 bg-gradient-to-r from-teal-500 to-teal-300 mx-auto rounded-full" />
-            <p className="text-base lg:text-lg rounded-3xl lg:rounded-full border-x-2 p-10 border-teal-700 bg-transparent">
+            <p className="text-center text-sm sm:text-base lg:text-lg rounded-3xl lg:rounded-full border-x-2 border-teal-700 p-1 sm:p-14">
               With a strong academic foundation and a <span className="font-extrabold">4.0/4.0 GPA</span> in my Master&apos;s in Computer Science, 
               I have built a professional journey that spans ~3 years of diverse experience.
               I specialize in <span className="font-extrabold">full-stack</span> development, leveraging technologies such as React, Spring Boot, AWS, and PostgreSQL to design scalable, high-performance applications. 
@@ -21,7 +20,7 @@ const AboutSection = () => {
               Driven by innovation and collaboration, I am committed to continuous growth and contributing to impactful projects.
             </p>
         </div>
-      </div>
+      
     </section>
   );
 };
