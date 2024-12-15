@@ -18,14 +18,12 @@ export default function Home() {
           className="absolute inset-0 bg-[url('/images/bgnew.jpg')] 
           bg-cover bg-center bg-no-repeat
           md:bg-fixed
-          before:content-[''] before:absolute before:inset-0 before:bg-black/30"
-          style={{
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            '@media (max-width: 768px)': {
-              backgroundAttachment: 'scroll'
-            }
-          }}
+          before:content-[''] before:absolute before:inset-0 before:bg-black/30 
+          motion-safe:transition-[background-position]
+          duration-300
+          sm:bg-scroll
+         "
+          
         />
       </div>
       <NavigateBar />
