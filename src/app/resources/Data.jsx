@@ -55,11 +55,20 @@ export const skillsData =[
     name:"Java",
     icon : "java.svg",
     alt_name:"Java"
+  },{
+    name:"AWS",
+    icon : "aws.svg",
+    alt_name:"AWS"
   },
   {
-    name:"Spring",
-    icon : "Spring.svg",
-    alt_name:"Spring"
+    name:"Spring Boot",
+    icon : "Spring-boot.svg",
+    alt_name:"Spring Boot"
+  },
+  {
+    name:"TypeScript",
+    icon : "typescript.svg",
+    alt_name:"TypeScript"
   },
   {
     name:"Docker",
@@ -126,15 +135,18 @@ export const skillsData =[
     icon : "git.svg",
     alt_name:"Git"
   },
-  {
-    name:"AWS",
-    icon : "aws.svg",
-    alt_name:"AWS"
-  },
 ]
 
 //Projects Data
 export const projects = [
+  {
+    title: "AI News Summarizer",
+    description: "An AI-powered web app that fetches real-time news, summarizes key insights, and analyzes sentiment, helping users track trends and stay informed effortlessly.",
+    image: "/images/projects/news-summarizer.png",
+    tags: ["React", "TypeScript", "Next.js","Flask", "Python", "Playwright","VADER", "Hugging Face Transformer (BART-LLM)"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
   {
     title: "AnimeFlix",
     description: "Created a dynamic platform for an anime blog, featuring detailed information, secure authentication, efficient data retrieval, and seamless performance with real-time updates.",

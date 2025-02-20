@@ -40,7 +40,7 @@ export default function Projects() {
                       Demonstrating innovation, technical skills, and successful outcomes.
           </motion.p>
       </div>    
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-3">
           {projects.map((project, index) => (
             <motion.div
               key={index}
