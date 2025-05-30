@@ -62,7 +62,7 @@ export const skillsData =[
   },
   {
     name:"Spring Boot",
-    icon : "Spring-boot.svg",
+    icon : "public\images\skills\spring-boot.svg",
     alt_name:"Spring Boot"
   },
   {
@@ -148,9 +148,9 @@ export const projects = [
     githubUrl: "#",
   },
   {
-    title: "AnimeFlix",
+    title: "AnimeBuzz",
     description: "Created a dynamic platform for an anime blog, featuring detailed information, secure authentication, efficient data retrieval, and seamless performance with real-time updates.",
-    image: "/images/projects/animeflix.png",
+    image: "/images/projects/animebuzz.png",
     tags: ["React", "Redux", "PostgreSQL", "Tailwind CSS","Java", "Spring Boot", "JWT"],
     liveUrl: "#",
     githubUrl: "#",
