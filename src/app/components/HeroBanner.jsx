@@ -68,7 +68,7 @@ const HeroBanner = () => {
                 </motion.a>
 
                 <motion.a
-                  href="https://drive.google.com/file/d/1HwoUsm7N48fBXJBvh85rbag8Y4ZMufs2/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1pRKHYuXYIMSjlzulKYzFogK3fOGvqebR/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group px-6 py-3 rounded-full bg-transparent border-2 border-purple-500 text-white font-medium inline-flex items-center gap-2 hover:bg-purple-500/10 transition-colors duration-300"
